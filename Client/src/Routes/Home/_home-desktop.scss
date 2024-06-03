@@ -1,0 +1,11 @@
+.homepage {
+  .homepage-body {
+    margin-top: 10%;
+    button {
+        &:hover {
+            transform: scale(1.05);
+            color: white;
+        }
+    }
+  }
+}
