@@ -4,13 +4,19 @@ export default function Navbar() {
     <nav className="navbar">
       <ul>
         <li>
-          <NavLink>Home</NavLink>
+          <NavLink to="/" className={({ isActive }) => [isActive ? "active" : ""].join(" ")}>
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink>About</NavLink>
+          <NavLink to="/about" className={({ isActive }) => [isActive ? "active" : ""].join(" ")}>
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink>Login</NavLink>
+          <NavLink to="/login" className={({ isActive }) => [isActive ? "active" : ""].join(" ")}>
+            Login
+          </NavLink>
         </li>
       </ul>
     </nav>

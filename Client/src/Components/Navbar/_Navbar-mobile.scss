@@ -1,20 +1,24 @@
 .navbar {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin-top: 2.5rem;
+  ul {
     width: 100%;
-    height: fit-content;
     display: flex;
-    margin-top: 2.5rem;
-    ul {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        li {
-            a {
-                font-size: 14pt;
-                font-family: $MainFont;
-                text-decoration: none;
-                font-weight: bold;
-                color: $Dark;
-            }
+    justify-content: space-between;
+    li {
+      a {
+        font-size: 14pt;
+        font-family: $MainFont;
+        text-decoration: none;
+        font-weight: bold;
+        color: $Dark;
+        &.active {
+          text-decoration: underline;
+          color: $Yellow;
         }
+      }
     }
+  }
 }

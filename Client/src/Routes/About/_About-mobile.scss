@@ -1,0 +1,32 @@
+.about-page {
+  width: 100%;
+  height: 100%;
+  .aboutpage-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .aboutPage-card {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        width: 80%;
+        height: 50%;
+        line-height: 1.75rem;
+        border-radius: 1rem;
+        font-family: $MainFont;
+        overflow-y: scroll;
+        font-size: 1.25rem;
+        p {
+            width: 85%;
+            max-height: 85%;
+            padding: 16px 0;
+            em {
+                font-weight: bold;
+            }
+        }
+    }
+  }
+}

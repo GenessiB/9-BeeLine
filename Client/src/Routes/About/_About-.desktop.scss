@@ -1,0 +1,16 @@
+.about-page {
+    .aboutpage-body {
+        justify-content: flex-start;
+        margin-top: 3rem;
+        .aboutPage-card {
+            height: 80%;
+            overflow-y: hidden;
+            p {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 2rem 0;
+            }
+        }
+    }
+}

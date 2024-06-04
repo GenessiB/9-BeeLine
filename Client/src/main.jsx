@@ -6,11 +6,16 @@ import { StrictMode } from "react";
 
 // ROUTES
 import HomePage from "./Routes/Home/home.jsx";
+import About from "./Routes/About/About.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
+  },
+  {
+    path: "/about",
+    element: <About/>,
   },
 ]);
 
